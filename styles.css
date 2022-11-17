@@ -34,16 +34,17 @@
     margin: 0 20px;
     position: relative;
 }
+
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(252, 250, 250);
     text-transform: uppercase;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: black;
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 0;
     bottom: -10px;
