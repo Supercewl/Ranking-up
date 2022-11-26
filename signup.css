@@ -7,7 +7,7 @@
 
 body
 { 
-  background-image: url(/Images/kj.jpeg);
+  background-image: url(kj.jpeg);
   background-size: 100%;
   background-position: top;
   font-family: 'baba';
@@ -17,7 +17,7 @@ body
 
 .body2
 { 
-  background-image: url(/Images/rl.jpeg);
+  background-image: url(rl.jpeg);
   background-size: 100%;
   background-position: top;
   font-family: 'baba';
