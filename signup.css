@@ -4,75 +4,102 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-    background-color: rgb(77, 4, 95);
-    color: white;
-    font-family: 'baba';
-}
-* {box-sizing: border-box}
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+
+body
+{ 
+  background-image: url(/Images/kj.jpeg);
+  background-size: 100%;
+  background-position: top;
+  font-family: 'baba';
+  margin: 0;
+  padding: 0;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+.body2
+{ 
+  background-image: url(/Images/rl.jpeg);
+  background-size: 100%;
+  background-position: top;
+  font-family: 'baba';
+  margin: 0;
+  padding: 0;
+}
+
+input[type=email]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+.sign-up{
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: : 0 0 3px 0 rgba(0,0,0,0.3);
+  margin: 8% auto 0;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+
 }
 
-button {
-  background-color: #160e0e;
-  color: rgb(250, 248, 248);
-  font-family: 'baba';
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
+.sign-up h1{
+  color: ;
+  margin-bottom: 30px;
+}
+
+.input-box{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px -10px;
+  outline: none;
+  padding: 10px;
   width: 100%;
-  opacity: 1;
-
-
-  
 }
 
-button:hover {
-  opacity:1;
+button{
+   border: none;
+   border-radius: 7.5px;
+   color: rgb(26, 12, 12);
+   cursor: pointer;
+   font-size: 15px;
+   margin: 10px 0;
+   outline: none;
+   padding: 10px;
+   width: 100%;
 }
 
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #ec3535;
 
-  
+
+.sign-btn{
+  background-color: rgb(186, 85, 253);
+  font-family: "baba";
+  font-size: 20px;
 }
 
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+.FB-btn{
+  background-color: #3b5998;
+  color: white;
 }
 
-.container {
-  padding: 16px;
+.GG-btn{
+  background-color: rgb(255, 75, 75);
+  color: white;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+a{
+  text-decoration: none;
 }
 
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
+hr{
+  margin-top: 20px;
+  width: 90%;
 }
 
+.or{
+  background: #fff;
+  margin: -20px auto 10px ;
+  width: 30px;
+}
+
+img{
+  width: 90px;
+}
