@@ -3,21 +3,30 @@
 <head>
   <title>Sign up</title>
   <link rel="stylesheet" href="signup.css">
+  <header>
+   <a href="index.html"><h1 class="PEPE">KNH</h1></a> 
+  </header>
 </head>
   <body>
      <div class ="sign-up">
-        <img src="logo.png">
+
+      <a href="Home.html">
+        <img src="/Images/logo.png">
+      </a>  
+
       <h1> Sign up</h1>
-      <form>
-        <input type="email" class="input-box" placeholder="Enter your Email" name="email" required>
+
+      <form action="Login.html">
+
+        <input type="email" class="input-box" placeholder="Enter your Email" id="email" name="email" required>
         
-        <input type="password" class="input-box" placeholder="Enter your Password" name="psw" required>
+        <input type="password" class="input-box" placeholder="Enter your Password" id="psw" name="psw" required>
         
-        <input type="password" class="input-box" placeholder="Re-enter your Password" name="psw" required>
+        <input type="password" class="input-box" placeholder="Re-enter your Password" id="psw" name="psw" required>
         
         <p><span><input type="checkbox" required></span> I agree to the <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
         
-        <a href="Login.html"><button type="button" class="sign-btn">Sign up</button></a>
+        <button type="submit" class="sign-btn">Sign up</button>
         
         <hr>
         
@@ -35,4 +44,9 @@
 
 
   </body>
+  
+  <footer>
+    <p>Footer</p>
+  </footer>
+
 </html>
