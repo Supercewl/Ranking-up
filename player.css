@@ -1,0 +1,694 @@
+@font-face {
+  font-family: 'baba';
+  src: url('bebasneue-regular_1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Yo{
+    margin: 0;
+    font-family:'baba';
+    font-size: 28px;
+    background-image: linear-gradient(#2C3E50,#000000, black);
+    height: 1700px;
+    
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky;
+    position: sticky;  
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: grid;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+li a:hover {
+    background-color: #5B85F9;
+    transition: .9s;
+}
+
+.active {
+    background-color: #303530;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+        
+
+        
+header{
+    background-color: #151215;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "baba";
+    color: white;
+}
+
+.img {
+    position:absolute;
+    height: 140px; 
+    width: 135px; 
+    left: 10px; 
+    top: 5px;
+}
+.btn {
+    position:absolute;
+    background-color: #2C3E50;
+    height: 35px; 
+    width: 100px; 
+    right: 25px; 
+    top: 65px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "baba";
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.btn:hover {
+    width: 140px;
+    background-color: #000000;
+    color: white;
+    border: #000000 5px;
+    font-family: "baba";
+    font-size: 22px;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.item1 select{
+    width: 100%;
+    
+}
+
+.item1 { 
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 1500px;
+    background-color: #151215;
+    width: 18%;
+    float:left;
+    position: absolute;
+ 
+ }
+
+.item2 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item3 {
+    height: 300px;
+    width: 200px;
+
+}
+.item4 {
+    height: 300px;
+    width: 200px;
+
+}
+.item5 {
+    height: 300px;
+    width: 200px;
+
+}
+.item6 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item7 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item8 {
+    height: 300px;
+    width: 200px;
+
+}
+.item9 {
+    height: 300px;
+    width: 200px;
+
+}
+.item10 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item11 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item12 {
+    height: 300px;
+    width: 200px;
+
+}
+.item13 {
+    height: 300px;
+    width: 200px;
+
+}
+.item14 {
+    height: 300px;
+    width: 200px;
+
+}
+.item15 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item16 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item17 {
+    height: 300px;
+    width: 200px;
+
+}
+.item18 {
+    height: 300px;
+    width: 200px;
+
+}
+.item19 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item20 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item21 {
+    height: 300px;
+    width: 200px;
+
+}
+
+.item2 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+
+.item3 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    padding-left: 50px ;
+}
+
+.item4 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.item5 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.item6 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.item9 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 610px;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.item2 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item3 .Elon2{
+    height: 220px;
+    width: 180px;
+    position: relative;
+    top: -110px;
+}
+
+.item4 .Elon3{
+    height: 220px;
+    width: 180px;
+    position: relative;
+    top: -110px;
+}
+
+.item5 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item6 .Elon2{
+    height: 220px;
+    width: 180px;
+    position: relative;
+    top: -110px;
+}
+
+.item7 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item8 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item9 .Elon2{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item10 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item11 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item12 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item13 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item14 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item15 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item16 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item17 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item18 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item19 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item20 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.item21 .Elon{
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: -110px;
+}
+
+.grid-container {
+    width: 80%;
+    float:right;
+    display: grid;
+    grid-template-areas:
+        'Filter Player1 Player2 Player3 Player4'
+        'Filter Player5 Player6 Player7 Player8'
+        'Filter Player9 Player10 Player11 Player12'
+        'Filter Player13 Player14 Player15 Player16'
+        'Filter Player17 Player18 Player19 Player20';
+    grid-gap: 40px;
+    padding-top: 50px ;
+    position: absolute;
+    right: -20px;
+    
+}
+
+
+.grid-container > div {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 120px 0;
+    font-size: 20px;
+}
+
+.filterset{
+    text-align:center;
+    color: white;
+}
+
+footer{
+    background-color: #1a1c1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    bottom: -800px; 
+    position: absolute;
+}
+
+.overlay {
+    position: absolute;
+    top: 60;
+    bottom: 0;
+    left: 9;
+    height: 220px;
+    width: 182;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+  .item2:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-family: "baba";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .item3:hover .coverlay {
+    opacity: 1;
+  }
+
+  .item3 .coverlay {
+    position: absolute;
+    top: 60;
+    bottom: 0;
+    left: 315;
+    height: 220px;
+    width: 182;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+   .item3 .text {
+    color: white;
+    font-family: "baba";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .item4:hover .koverlay {
+    opacity: 1;
+  }
+
+  .item4 .koverlay {
+    position: absolute;
+    top: 60;
+    bottom: 0;
+    left: 620;
+    height: 220px;
+    width: 182;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+   .item4 .text {
+    color: white;
+    font-family: "baba";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .item5:hover .koverlay {
+    opacity: 1;
+  }
+
+  .item5 .koverlay {
+    position: absolute;
+    top: 60;
+    bottom: 0;
+    right: 382px;
+    height: 220px;
+    width: 182;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+   .item5 .text {
+    color: white;
+    font-family: "baba";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .item6:hover .koverlay {
+    opacity: 1;
+  }
+
+  .item6 .koverlay {
+    position: absolute;
+    top: 60;
+    bottom: 0;
+    right: 75px;
+    height: 220px;
+    width: 182;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+   .item6 .text {
+    color: white;
+    font-family: "baba";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .item9:hover .koverlay {
+    opacity: 1;
+  }
+
+  .item9 .koverlay {
+    position: absolute;
+    top: 400;
+    bottom: 0;
+    left: 620;
+    height: 220px;
+    width: 182;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+   .item9 .text {
+    color: white;
+    font-family: "baba";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Search bar */
+
+.search-container {
+    position: absolute;
+    float: right;
+    background-color: white;
+    top:65px;
+    right: 200px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+
+input[type=text] {
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-container button {
+    float: right;
+    height: 35px;
+    width: 40px;
+    background: rgb(163, 162, 162);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+  input[type=text], .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+      background-color: black;
+      
+    }
+  input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
